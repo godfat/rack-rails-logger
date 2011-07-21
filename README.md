@@ -1,10 +1,10 @@
-# rack-logger-rails
+# rack-rails-logger
 by Lin Jen-Shin (godfat) <http://godfat.org>
 
 ## LINKS:
 
-* [github](http://github.com/godfat/rack-logger-rails)
-* [rubygems](http://rubygems.org/gems/rack-logger-rails)
+* [github](http://github.com/godfat/rack-rails-logger)
+* [rubygems](http://rubygems.org/gems/rack-rails-logger)
 
 ## DESCRIPTION:
 
@@ -20,7 +20,7 @@ After installing this middleware, any Rails logs would be redirected to
 
 ## INSTALLATION:
 
-    gem install rack-logger-rails
+    gem install rack-rails-logger
 
 ## SYNOPSIS:
 
