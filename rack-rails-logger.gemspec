@@ -7,7 +7,10 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = [%q{Lin Jen-Shin (godfat)}]
   s.date = %q{2011-07-21}
-  s.description = %q{Tell Rails to respect env['rack.logger']}
+  s.description = %q{Tell Rails to respect `env['rack.logger']`
+
+After installing this middleware, any Rails logs would be redirected to
+`env['rack.logger']`.}
   s.email = [%q{godfat (XD) godfat.org}]
   s.files = [
   %q{.gitignore},
@@ -26,7 +29,7 @@ Gem::Specification.new do |s|
   %q{README}]
   s.require_paths = [%q{lib}]
   s.rubygems_version = %q{1.8.5}
-  s.summary = %q{Tell Rails to respect env['rack.logger']}
+  s.summary = %q{Tell Rails to respect `env['rack.logger']`}
 
   if s.respond_to? :specification_version then
     s.specification_version = 3

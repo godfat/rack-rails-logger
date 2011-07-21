@@ -8,7 +8,10 @@ by Lin Jen-Shin (godfat) <http://godfat.org>
 
 ## DESCRIPTION:
 
-Tell Rails to respect env['rack.logger']
+Tell Rails to respect `env['rack.logger']`
+
+After installing this middleware, any Rails logs would be redirected to
+`env['rack.logger']`.
 
 ## REQUIREMENTS:
 
@@ -20,6 +23,8 @@ Tell Rails to respect env['rack.logger']
     gem install rack-logger-rails
 
 ## SYNOPSIS:
+
+    use Rack::RailsLogger
 
 ## LICENSE:
 
