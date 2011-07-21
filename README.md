@@ -13,6 +13,7 @@ Tell Rails to respect env['rack.logger']
 ## REQUIREMENTS:
 
 * Any Ruby
+* Rails 3+
 
 ## INSTALLATION:
 
