@@ -1,35 +1,30 @@
 # -*- encoding: utf-8 -*-
 
 Gem::Specification.new do |s|
-  s.name = %q{rack-rails-logger}
-  s.version = "1.0.0"
+  s.name = "rack-rails-logger"
+  s.version = "1.0.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
-  s.authors = [%q{Lin Jen-Shin (godfat)}]
-  s.date = %q{2011-07-21}
-  s.description = %q{Tell Rails to respect `env['rack.logger']`
-
-After installing this middleware, any Rails logs would be redirected to
-`env['rack.logger']`.}
-  s.email = [%q{godfat (XD) godfat.org}]
+  s.authors = ["Lin Jen-Shin (godfat)"]
+  s.date = "2011-09-01"
+  s.description = "Tell Rails to respect `env['rack.logger']`\n\nAfter installing this middleware, any Rails logs would be redirected to\n`env['rack.logger']`."
+  s.email = ["godfat (XD) godfat.org"]
   s.files = [
-  %q{.gitignore},
-  %q{.gitmodules},
-  %q{README},
-  %q{README.md},
-  %q{Rakefile},
-  %q{lib/rack-rails-logger.rb},
-  %q{lib/rack-rails-logger/version.rb},
-  %q{rack-rails-logger.gemspec},
-  %q{task/.gitignore},
-  %q{task/gemgem.rb}]
-  s.homepage = %q{https://github.com/godfat/rack-rails-logger}
-  s.rdoc_options = [
-  %q{--main},
-  %q{README}]
-  s.require_paths = [%q{lib}]
-  s.rubygems_version = %q{1.8.5}
-  s.summary = %q{Tell Rails to respect `env['rack.logger']`}
+  ".gitignore",
+  ".gitmodules",
+  "CHANGES.md",
+  "README",
+  "README.md",
+  "Rakefile",
+  "lib/rack-rails-logger.rb",
+  "lib/rack-rails-logger/version.rb",
+  "rack-rails-logger.gemspec",
+  "task/.gitignore",
+  "task/gemgem.rb"]
+  s.homepage = "https://github.com/godfat/rack-rails-logger"
+  s.require_paths = ["lib"]
+  s.rubygems_version = "1.8.10"
+  s.summary = "Tell Rails to respect `env['rack.logger']`"
 
   if s.respond_to? :specification_version then
     s.specification_version = 3
