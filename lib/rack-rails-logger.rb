@@ -6,7 +6,7 @@ class Rack::RailsLogger
   end
 
   def call env
-    racklogger(env, @app.config,
+    racklogger(env, Rails.application.config,
                     Rails,
                     ActionController::Base,
                     ActiveRecord::Base)
