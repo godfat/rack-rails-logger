@@ -14,6 +14,8 @@ class Rack::RailsLogger
   end
 
   def racklogger env, *mods
-    mods.each{ |mod| mod.send(:logger=, env['rack.logger']) }
+    if logger = env['rack.logger']
+      mods.each{ |mod| mod.send(:logger=, logger) }
+    end
   end
 end

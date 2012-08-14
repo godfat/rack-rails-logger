@@ -1,5 +1,11 @@
 # rack-rails-logger CHANGES
 
+## rack-rails-logger 1.0.3 -- 2012-08-14
+
+* Only redirect loggers if env['rack.logger'] is set.
+  It seems most of the servers are not conforming this spec,
+  missing logger.
+
 ## rack-rails-logger 1.0.2 -- 2011-09-01
 
 * fix gemspec
